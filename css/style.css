@@ -8,8 +8,9 @@ img {
 }
 #menu {
     display: grid;
+    grid-auto-flow: column;
     place-items: center;
-    height: 20vh;
+    height: 10vh;
 }
 a { 
     text-decoration: none;
